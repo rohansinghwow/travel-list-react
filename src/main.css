@@ -58,4 +58,17 @@ h1{
 .card-info{
     font-weight: 500;
     letter-spacing: 1px;
+    transition: all 0.5s ease-out;
+}
+
+.readmore-btn{
+    padding: 5px 10px;
+    color: rgb(15, 15, 251);
+    border: none;
+    margin-left: 5px;
+    font-size: 1.1rem;
+    
+}
+.readmore-btn:hover{
+    cursor: pointer;
 }
