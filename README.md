@@ -6,6 +6,8 @@
 
 ![](pic3.png)
 
+![](pic4.png)
+
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
 
 - `npm start` — This will spawn a development server with a default port of `3000`.
@@ -30,8 +32,10 @@ vite --port 1234
 - Default state is used for showing Loading... before Data gets fetched
 - Conditional rendering and substring() method used for Readmore feature
 - Filter array method used for remove a card from the list by comparing id and current id
+- length method on state is used for determing the cards left
 
 # Features
 - Remove a card by pressing Not interested
 - Press Readmore button to expand the info
 - Press Refesh Button to get the original data back
+- Number of cards left shown 
