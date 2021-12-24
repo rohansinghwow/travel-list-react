@@ -2,9 +2,9 @@
 
 ![](pic-1.png)
 
-![](pic-2.png)
+![](pic2.png)
 
-![](pic-3.png)
+![](pic3.png)
 
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
 
