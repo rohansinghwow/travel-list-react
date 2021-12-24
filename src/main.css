@@ -56,7 +56,7 @@ h1{
 }
 
 .card-info{
-    font-weight: 500;
+    
     letter-spacing: 1px;
     transition: all 0.5s ease-out;
 }
@@ -67,7 +67,7 @@ h1{
     border: none;
     margin-left: 5px;
     font-size: 1.1rem;
-    
+    font-weight: bolder;
 }
 .readmore-btn:hover{
     cursor: pointer;
