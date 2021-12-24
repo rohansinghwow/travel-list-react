@@ -8,8 +8,8 @@ export default function Place(props){
             </div>
             
             <p className="card-name">{props.name}</p>
-            <p>{props.info}</p>
-            <p className="card-price">{props.price}</p>
+            <p className="card-info">{props.info}</p>
+            <p className="card-price">${props.price}</p>
         </div>
     )
 }
