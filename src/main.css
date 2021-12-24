@@ -72,3 +72,31 @@ h1{
 .readmore-btn:hover{
     cursor: pointer;
 }
+.del-btn{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(253, 120, 68);
+    color: white;
+    font-weight: bolder;
+}
+.del-btn:hover{
+    cursor: pointer;
+}
+.refresh-btn{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(94, 131, 255);
+    color: white;
+    font-weight: bolder;
+    margin: 10px auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.refresh-btn:hover{
+    cursor: pointer;
+}

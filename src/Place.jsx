@@ -14,6 +14,7 @@ export default function Place(props){
                 <button className="readmore-btn" onClick={()=>setReadMore(prevData=>!prevData)}>..Read More</button>
             </p>
             <p className="card-price">${props.price}</p>
+            <button className="del-btn" onClick={()=>props.toursDel(props.id)}>Not Interested</button>
         </div>
     )
 }

@@ -5,13 +5,17 @@ export default function App(){
 
   const [state, setState] = React.useState([])
   const [loading, setLoading] = React.useState(true)
-    
+
+  const delTours = (id) => {
+        const newTours = state.filter((item=>item.id !== id))
+        setState(newTours)
+  }
 
     const mapper = state.map(item=>{  //maping the state array and send it to Places.jsx
         
         return (
             
-                <Place name={item.name} img={item.image} info={item.info} 
+                <Place key={item.id} id={item.id} toursDel={delTours} name={item.name} img={item.image} info={item.info} 
                 price={item.price}
                 />
             
@@ -40,7 +44,11 @@ export default function App(){
 
 return (
         
-    loading? <h1>Loading...</h1> : mapper
+    <>
+    <h1>Items Left : {state.length}</h1>
+    {loading ? <h1>Loading...</h1> : mapper }
+    <button className="refresh-btn" onClick={getData}>Refresh</button>
+    </>
         
 )
 
