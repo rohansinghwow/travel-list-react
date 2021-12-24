@@ -20,5 +20,7 @@ Or edit the `start` script directly:
 ```
 vite --port 1234
 ```
-
-
+# How it works
+- Data is fetch using an API
+- Map method used for mapping over data
+- Default state is used for showing Loading... before Data gets fetched
