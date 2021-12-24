@@ -28,3 +28,10 @@ vite --port 1234
 - Data is fetch using an API
 - Map method used for mapping over data
 - Default state is used for showing Loading... before Data gets fetched
+- Conditional rendering and substring() method used for Readmore feature
+- Filter array method used for remove a card from the list by comparing id and current id
+
+# Features
+- Remove a card by pressing Not interested
+- Press Readmore button to expand the info
+- Press Refesh Button to get the original data back
